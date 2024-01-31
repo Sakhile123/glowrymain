@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .img1 img{
+            width: 300px;
+            height: 250px;
+        }
+        .img2 img{
+            width: 300px;
+            height: 250px;
+        }
+        .img3 img{
+            width: 300px;
+            height: 250px;
+        }
+        .product{
+            display: flex;
+            flex-direction: row;
+            margin-left: 15%;
+        }
+        .img1 h2{
+            text-align: center;
+            color: black;
+        }
+        .img1 button{
+            margin-left: 45%;
+            background-color: red;
+            color: white;
+        }
+        .img2 h2{
+            text-align: center;
+            color: black;
+        }
+        .img2 button{
+            margin-left: 45%;
+            background-color: red;
+            color: white;
+        }
+        .img3 h2{
+            text-align: center;
+            color: black;
+        }
+        .img3 button{
+            margin-left: 45%;
+            background-color: red;
+            color: white;
+        }
+        .img1{
+        
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .img2{
+          
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .img3{
+     
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .product{
+            margin-top: 7%;
+        }
+     
+        header h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        header a{
+            text-decoration: none;
+            margin-right: 15%;
+            font-size: 25px;
+            color: black;
+            margin-top: 13px;
+        }
+      header a:hover{
+        color: red;
+        font-size: 35px;
+      }
+      .icons{
+      
+        margin-right: 10%;
+        margin-top: 15px;
+      }
+      
+     .p h1{
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+     }  
+    </style>
+</head>
+<body>
+    <header>
+       
+       
+            <logo>Glowry<span>18+</span></logo>
+            <div class="navbar">
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="products.html">Products</a>
+               <a href="contact.html">Contact</a>
+             
+               <button onclick="toggleMode()"><i class="fa fa-moon"></i></button>
+     
+
+        
+    </div>
+    </header>
+    <section>
+        <div class="p">
+        <h1>Products</h1>
+    </div>
+    <div class="product">
+        <div class="img1">
+            <img src="pc.jpeg">
+            <h2>R65.00</h2>
+  
+        </div>
+        <div class="img2">
+            <img src="pc1.jpeg">
+            <h2>R65.00</h2>
+      
+        </div>
+        <div class="img3">
+            <img src="pc2.jpeg">
+            <h2>R65.00</h2>
+        
+        </div>
+       
+    </div>
+</section>
+    <footer>
+        &copy;Glowry|2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
