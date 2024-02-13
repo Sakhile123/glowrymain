@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
+        body{
+            background-color: antiquewhite;
+        }
         .about h1{
             text-align: center;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
+            font-size: 50px;
         }
         .about p{
             color: white;
-            font-size: 18px;
+            font-size: 28px;
             width: 50%;
             border: none;
             height: auto;
@@ -23,32 +26,22 @@
             margin-top: 10%;
             margin-left: 26%;
         }
-        .Moyo{
+        .coffee h1{
+            color: black;
+            font-size: 48px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 50%;
             border: none;
-            width: 40%;
-            height: 60%;
-            float: left;
+            height: auto;
             text-align: center;
+            margin-left: 26%;
+            padding-top: 1rem;
+            border: solid black;
+            border-width: 80%;
+            padding-bottom: 1rem;
+            
         }
-        .Moyo img{
-            width: 60%;
-            height: 45vh;
-         
-        }
-        .zulu{
-            border: none;
-            width: 40%;
-            height: 60%;
-            float: left;
-            margin-left: 15%;
-            text-align: center;
-
-        }
-        .zulu img{
-            width: 60%;
-            height: 45vh;
-          
-        }
+     
         .bio{
             margin: 3px;
         }
@@ -60,24 +53,14 @@
                 flex-direction: column;
                 text-align: center;
                }
-               .Moyo{
+            .coffee{
+   
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
                 text-align: center;
-                margin-left: 78px;
-            
                }
-               .Moyo img{
-                width: 350px;
-                height: 300px;
-               }
-               .zulu{
-                text-align: center;
-                margin-right: 18px;
-               }
-               
-               .zulu img{
-                width: 350px;
-                height: 300px;
-               }
+           
         }
     </style>
 </head>
@@ -96,7 +79,7 @@
     </header>
     <!--sec1-->
     <section style="background-image:url(images.jpg);
-    background-size:cover;background-repeat:no-repeat;height:55vh;">
+    background-size:cover;background-repeat:no-repeat;height:85vh;">
     <div class="about">
         <h1>About Us</h1>
         <p>
@@ -111,31 +94,18 @@
 </section>
     <!--sec1-->
 <!--sec2-->
-<section style="margin-top: 5%;">
-    <div class="bio">
-    <div class="Moyo">
-        <img src="sindiso.jpg">
-        <h1>Sindiso Moyo</h1>
-        <p>
-           Founder and  CEO of Glowry.
-        </p>
-        <p>
-          074 873 9223
-        </p>
-    </div>
-    <div class="zulu">
-        <img src="zulupm.jpg">
-        <h1>Sakhile Zulu</h1>
-        <p>
-         Co-Founder of Glowry
-        </p>
-        <p>
-       072 431 3513
-        </p>
-    </div>
+<section style="background-image:url(coffe.jpg);
+background-size:cover;background-repeat:no-repeat;height:70vh; margin-bottom:0;padding-bottom:0;">
+<div class="coffee">
+    <h2></h2><br><br><br><br><br>
+    <h2></h2><br><br><br>
+ 
+    <h1>Taste him/her while you sip</h1>
+</div>
+ 
 </section>
 <!--sec2-->
-<section id="footer" style="margin-top: 35%;">
+<section id="footer">
 <footer>
     &copy;Glowry|2024
 </footer>
